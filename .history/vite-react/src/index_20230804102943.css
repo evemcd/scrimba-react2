@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar>h1 {
+  color: #00D8FF;
+}
+
+.navbar>nav {
+  justify-content: flex-end;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: #21222A;
+}
+
+.navbar>h1 {
+  color: #00D8FF;
+}
+
+.navbar>nav {
+  justify-content: flex-end;
+  color: ;
+}

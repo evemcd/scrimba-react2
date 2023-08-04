@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.nav--logo_text {
+  color: #61DAFB;
+  margin: 0;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  margin: 0;
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+main {
+  color: #FFFFFF;
+  padding: 57px 27px;
+}
+
+main>h1 {
+  margin: 0;
+  padding: 40px 25px 20px 25px;
+  font-size: 40px;
+}
+
+.factsList {
+  padding: 0 70px;
+}
+
+.listElements {
+  padding: 8px;
+  font-size: 16px;
+}

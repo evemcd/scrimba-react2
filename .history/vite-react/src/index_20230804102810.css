@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {}
+
+.navbar>h1 {
+  color: #00D8FF;
+}

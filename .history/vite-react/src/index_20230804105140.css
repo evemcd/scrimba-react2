@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+nav>h3 {
+  color: #00D8FF;
+  margin: 0;
+}
+
+nav>h4 {
+  justify-content: flex-end;
+  margin: 0;
+  color: #DEEBF8;
+  font-size: 16px;
+}
