@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.logo-img {
+  height: 30px;
+  margin: 30px 20px;
+}
