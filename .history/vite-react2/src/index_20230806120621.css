@@ -50,18 +50,17 @@ section {
   /* margin-left: 37px; */
 }
 
-/* .card>p {
+.card>p {
   margin: 5px 0 0 0;
-} */
+}
 
 .card--img {
   border-radius: 9px;
-  width: 100%;
+  max-width: 550px;
 }
 
 .card--stats {
-  display: flex;
-  align-items: center;
+  font-size: 14px;
 }
 
 .star--img {
@@ -72,6 +71,6 @@ section {
   color: #222;
 }
 
-.gray {
+.text--review2 {
   color: #918E9B;
 }

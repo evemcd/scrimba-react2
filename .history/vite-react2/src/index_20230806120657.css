@@ -60,8 +60,7 @@ section {
 }
 
 .card--stats {
-  display: flex;
-  align-items: center;
+  font-size: 14px;
 }
 
 .star--img {
@@ -72,6 +71,6 @@ section {
   color: #222;
 }
 
-.gray {
+.text--review2 {
   color: #918E9B;
 }

@@ -44,34 +44,34 @@ section {
   line-height: 110%;
 }
 
-.card {
-  width: 175px;
-  font-size: 14px;
-  /* margin-left: 37px; */
+.card--div {
+  margin-left: 37px;
 }
 
-/* .card>p {
-  margin: 5px 0 0 0;
-} */
+.card--div>p {
+  margin: 0;
+}
 
 .card--img {
   border-radius: 9px;
-  width: 100%;
+  max-width: 550px;
 }
 
-.card--stats {
-  display: flex;
-  align-items: center;
+.card--text {
+  font-size: 14px;
 }
 
 .star--img {
   height: 14px;
+  margin: 5px 0 0 0;
 }
 
 .text--review1 {
   color: #222;
+  margin: 5px 0 0 0;
 }
 
-.gray {
+.text--review2 {
   color: #918E9B;
+  margin: 5px 0 0 0;
 }

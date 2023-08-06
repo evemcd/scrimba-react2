@@ -44,34 +44,15 @@ section {
   line-height: 110%;
 }
 
-.card {
-  width: 175px;
-  font-size: 14px;
-  /* margin-left: 37px; */
+.card--div {
+  margin-left: 37px;
 }
-
-/* .card>p {
-  margin: 5px 0 0 0;
-} */
 
 .card--img {
   border-radius: 9px;
-  width: 100%;
-}
-
-.card--stats {
-  display: flex;
-  align-items: center;
+  max-width: 550px;
 }
 
 .star--img {
   height: 14px;
-}
-
-.text--review1 {
-  color: #222;
-}
-
-.gray {
-  color: #918E9B;
 }

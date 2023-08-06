@@ -44,24 +44,21 @@ section {
   line-height: 110%;
 }
 
-.card {
-  width: 175px;
-  font-size: 14px;
-  /* margin-left: 37px; */
+.card--div {
+  margin-left: 37px;
 }
-
-/* .card>p {
-  margin: 5px 0 0 0;
-} */
 
 .card--img {
   border-radius: 9px;
-  width: 100%;
+  max-width: 550px;
 }
 
-.card--stats {
-  display: flex;
-  align-items: center;
+.card--text {
+  font-size: 14px;
+}
+
+.card--text>p {
+  margin: 5px 0 0 0;
 }
 
 .star--img {
@@ -72,6 +69,6 @@ section {
   color: #222;
 }
 
-.gray {
+.text--review2 {
   color: #918E9B;
 }
