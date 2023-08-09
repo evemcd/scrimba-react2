@@ -54,10 +54,6 @@ section {
   width: 100%;
 }
 
-.card--star {
-  height: 14px;
-}
-
 .card--stats {
   display: flex;
   align-items: center;

@@ -1,0 +1,23 @@
+import React from "react"
+
+export default function Card(props) {
+    return (
+        <div>
+            {props.img}
+            <div className="card--stats">
+                <img src="../../assets/star.png" className="star--img" />
+                {props.stars}
+                {props.reviews}
+                {props.country}
+                <p>
+                    {props.title}
+                </p>
+            </div>
+        </div>
+    )
+}
+
+/*
+            <p>Life lessons with Katie Zaferes</p>
+            <p><strong>From $136</strong> / person</p>
+*/
