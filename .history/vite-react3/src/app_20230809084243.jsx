@@ -8,14 +8,6 @@ export default function App() {
       <Joke
         punchline="It’s hard to explain puns to kleptomaniacs because they always take things literally."
         isPun={false}
-        upvotes={10}
-        downvotes={2}
-        comments={
-          [
-            { author: "Eve", body: "funny", title: "haha" },
-            { author: "Ross", body: "yawn", title: "*eyeroll*" }
-          ]
-        }
       />
       <Joke
         setup="I got my daughter a fridge for her birthday."

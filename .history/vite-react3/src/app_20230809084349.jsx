@@ -10,12 +10,7 @@ export default function App() {
         isPun={false}
         upvotes={10}
         downvotes={2}
-        comments={
-          [
-            { author: "Eve", body: "funny", title: "haha" },
-            { author: "Ross", body: "yawn", title: "*eyeroll*" }
-          ]
-        }
+        comments={[{ author: "", body: "", title: "" }, { ...}]}
       />
       <Joke
         setup="I got my daughter a fridge for her birthday."
